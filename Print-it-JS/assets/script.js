@@ -38,7 +38,7 @@ function initCarousel() {
         if (index === currentIndex) {
             dot.classList.add('dot_selected'); // Sélectionne le premier dot
         }
-        dot.addEventListener('click', () => showSlide(index)); // Ajout du clic sur le dot
+    //    dot.addEventListener('click', () => showSlide(index)); // Ajout du clic sur le dot
         dotsContainer.appendChild(dot);
     });
 
