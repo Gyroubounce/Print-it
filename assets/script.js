@@ -42,7 +42,6 @@ function initCarousel() {
         dotsContainer.appendChild(dot);
     });
 
-    updateBanner(); // Mise à jour de l'image et du texte
 }
 
 // Mise à jour de l'image et du texte de la bannière
